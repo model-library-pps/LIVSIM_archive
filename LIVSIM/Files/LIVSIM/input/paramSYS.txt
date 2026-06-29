@@ -1,0 +1,3 @@
+PARAM.SYS.tolly	0.001
+PARAM.SYS.factor	30.4
+PARAM.SYS.SimulationTime	12.0

@@ -1,0 +1,5 @@
+LivsimMGMT.MilkAllowance	1250  1250   0	  
+LivsimMGMT.MilkAllowanceAge	0	0.1667	1.5
+LivsimMGMT.weaningAGE	1.4166	Nan	Nan
+
+LivsimMGMT.WalkingDistance	6.0	Nan	Nan

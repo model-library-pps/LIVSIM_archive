@@ -1,0 +1,62 @@
+%----------------------------output1----------------------------------------
+%this file initializes the output variables
+% Version June 2009 --Mariana Rufino
+%--------------------------------------------------------------------------
+
+outputCOWS(1,cowNr,1)=COWS(cowNr).SYS.FarmType;
+outputCOWS(2,cowNr,1)=COWS(cowNr).SYS.ID;
+outputCOWS(3,cowNr,1)=COWS(cowNr).CHAR.Sex;
+outputCOWS(4,cowNr,1)=COWS(cowNr).CHAR.Age;
+outputCOWS(5,cowNr,1)=COWS(cowNr).CHAR.Stat;
+outputCOWS(6,cowNr,1)=COWS(cowNr).CHAR.BW;
+outputCOWS(7,cowNr,1)=COWS(cowNr).CHAR.GrowthLastMonth;
+outputCOWS(8,cowNr,1)=COWS(cowNr).NEED.PotGrowthME;
+outputCOWS(9,cowNr,1)=COWS(cowNr).NEED.PotGrowthMP;
+outputCOWS(10,cowNr,1)=COWS(cowNr).CHAR.MinBWAgeComb;
+outputCOWS(11,cowNr,1)=COWS(cowNr).CHAR.CalvInd;
+outputCOWS(12,cowNr,1)=COWS(cowNr).CHAR.PregInd;
+outputCOWS(13,cowNr,1)=COWS(cowNr).CHAR.DEATH;
+%outputCOWS(14,cowNr,1)=COWS(cowNr).CHAR.Progenitor;
+outputCOWS(15,cowNr,1)=COWS(cowNr).NEED.MaintME;
+outputCOWS(16,cowNr,1)=COWS(cowNr).NEED.GrowthME;
+outputCOWS(17,cowNr,1)=COWS(cowNr).NEED.GestME;
+outputCOWS(18,cowNr,1)=COWS(cowNr).NEED.LactME;
+outputCOWS(19,cowNr,1)=COWS(cowNr).NEED.MaintMP;
+outputCOWS(20,cowNr,1)=COWS(cowNr).NEED.GrowthMP;
+outputCOWS(21,cowNr,1)=COWS(cowNr).NEED.GestMP;
+outputCOWS(22,cowNr,1)=COWS(cowNr).NEED.LactMP;
+outputCOWS(23,cowNr,1)=COWS(cowNr).CHAR.ProbaConception;
+outputCOWS(24,cowNr,1)=COWS(cowNr).CHAR.RandNbConception;
+outputCOWS(25,cowNr,1)=COWS(cowNr).CHAR.FeedDeficit;
+outputCOWS(26,cowNr,1)=COWS(cowNr).NEED.BasalMaint;
+outputCOWS(27,cowNr,1)=COWS(cowNr).SYS.DamID;
+outputCOWS(28,cowNr,1)=COWS(cowNr).INPUT.ME; %metbaolosable energy
+outputCOWS(29,cowNr,1)=COWS(cowNr).INPUT.MP;
+outputCOWS(30,cowNr,1)=COWS(cowNr).INPUT.DM; %dry matter
+outputCOWS(31,cowNr,1)=COWS(cowNr).INPUT.CP; % crude protein
+outputCOWS(32,cowNr,1)=COWS(cowNr).INPUT.MilkME;
+outputCOWS(33,cowNr,1)=COWS(cowNr).INPUT.MilkMP;
+outputCOWS(34,cowNr,1)=COWS(cowNr).INPUT.Milk;
+outputCOWS(35,cowNr,1)=COWS(cowNr).INPUT.ConcentrateDM;
+outputCOWS(36,cowNr,1)=COWS(cowNr).INPUT.ConcentrateCP;
+outputCOWS(37,cowNr,1)=COWS(cowNr).INPUT.ConcentrateME;
+outputCOWS(38,cowNr,1)=COWS(cowNr).INPUT.ConcentrateMP; %metabolisable protein (internal var)
+outputCOWS(39,cowNr,1)=COWS(cowNr).CHAR.ProbaDeath;
+outputCOWS(40,cowNr,1)=COWS(cowNr).CHAR.RandNbMort;
+outputCOWS(41,cowNr,1)=COWS(cowNr).BreedID;
+outputCOWS(42,cowNr,1)=COWS(cowNr).OUT.Milk;
+outputCOWS(43,cowNr,1)=COWS(cowNr).OUT.FaecN;
+outputCOWS(44,cowNr,1)=COWS(cowNr).OUT.UrinaryN;
+outputCOWS(45,cowNr,1)=COWS(cowNr).OUT.FaecDM;
+outputCOWS(46,cowNr,1)=COWS(cowNr).OUT.NbCalv;
+outputCOWS(47,cowNr,1)=COWS(cowNr).OUT.CumMilk;
+outputCOWS(48,cowNr,1)=COWS(cowNr).OUT.CumDayMilk; %cumulative days producing milk in a lifetime
+outputCOWS(49,cowNr,1)=COWS(cowNr).OUT.CumDayOpen; %interval between calving and conception
+outputCOWS(50,cowNr,1)=COWS(cowNr).OUT.AgeFirstConc;
+outputCOWS(51,cowNr,1)=COWS(cowNr).OUT.AgeFirstCalv;
+outputCOWS(52,cowNr,1)=COWS(cowNr).OUT.CumME;
+outputCOWS(53,cowNr,1)=COWS(cowNr).OUT.CumDMI;% cumulative dry matter intake
+outputCOWS(54,cowNr,1)=COWS(cowNr).OUT.ForInt; %forage intake
+outputCOWS(55,cowNr,1)=COWS(cowNr).OUT.DMoff; %dry matter on offer
+outputCOWS(57,cowNr,1)=COWS(cowNr).OUT.CondIndex;
+outputCOWS(58,cowNr,1)=COWS(cowNr).OUT.ProbaConception;
